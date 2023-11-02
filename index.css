@@ -398,6 +398,43 @@ body {
     margin: 0 auto;  
 }
 
+.block__4__row {
+    width: 600px;
+    height: 125px;
+    display: flex;
+    flex-direction: row;
+}
+
+.block__4__row:nth-child(3) {
+    width: 600px;
+    height: 125px;
+}
+
+.block__4__table {
+    border: 1px solid #979797;
+}
+
+.block__4__cell {
+    width: 300px;
+    height: 125px;
+}
+
+.cell__title {
+    font-family: 'BebasNeue', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: #FFB548;
+}
+
+.cell__text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
 
 
 .block__5 {
