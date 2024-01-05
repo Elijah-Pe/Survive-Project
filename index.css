@@ -392,10 +392,39 @@ body {
     background-position: center top, center top, center top;
     background-repeat: no-repeat;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     width: 1440px;
     height: 960px;
     margin: 0 auto;  
+}
+
+.block__4__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'BebasNeue', sans-serif;
+}
+
+.block__4__title__small {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-align: justify;
+    margin: 0 0 0 0px;
+    color: #FFFFFF;
+}
+
+.block__4__title__big {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 80px;
+    letter-spacing: 3px;
+    text-align: justify;
+    margin: 0 0 0 0px;
+    color: #FFFFFF;
 }
 
 .block__4__row {
@@ -405,17 +434,27 @@ body {
     flex-direction: row;
 }
 
-.block__4__row:nth-child(3) {
-    width: 600px;
-    height: 125px;
-}
+
 
 .block__4__table {
-    border: 1px solid #979797;
+    display: grid;
+    width: 600px;
+    height: 375px;
+    align-self: flex-start;
+    margin: 130px 0 0 120px;
+    
 }
 
 .block__4__cell {
     width: 300px;
+    height: 125px;
+    border: 1px solid #979797;
+    border-collapse: collapse;
+    padding: 15px 0 0 20px;
+}
+
+.block__4__row:nth-of-type(3) .block__4__cell:nth-child(1) {
+    width: 600px;
     height: 125px;
 }
 
@@ -426,13 +465,15 @@ body {
     line-height: 24px;
     letter-spacing: 2px;
     color: #FFB548;
+    margin: 0 0 20px 0px;
 }
 
 .cell__text {
     font-weight: 400;
-    font-size: 24px;
-    line-height: 24px;
+    font-size: 18px;
+    line-height: 22px;
     color: #FFFFFF;
+    margin: 0 0 0 0px;
 }
 
 
